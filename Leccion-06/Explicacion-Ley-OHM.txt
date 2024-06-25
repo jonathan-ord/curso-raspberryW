@@ -1,0 +1,64 @@
+La fórmula base de la Ley de Ohm: V = I * R, donde V representa el voltaje, I la corriente y R la resistencia.
+
+    Primer Ejemplo:
+
+Visualizamos un circuito simple compuesto por una fuente de alimentación de 3.3 voltios y una resistencia de 220 ohmios.
+Para calcular la corriente que fluye a través del circuito, utilizamos la fórmula I = V / R. Sustituyendo los valores, obtenemos:
+
+---------------------------
+I = 3.3 / 220​
+I = 0.015Amperios
+---------------------------
+
+Convertimos este valor a miliamperios para facilitar la medición:
+
+0.015×1000=15mA
+
+Para verificar este resultado, utilizamos un multímetro y medimos la corriente en serie, obteniendo un valor muy aproximado a nuestro cálculo teórico de 15 mA.
+
+    Segundo Ejemplo:
+
+Exploramos un circuito con dos resistencias de valores diferentes, formando un divisor de voltaje.
+Las resistencias son de 220 ohmios y 1000 ohmios, respectivamente.
+Para calcular la corriente en el circuito, utilizamos la fórmula I = V / R. Primero, sumamos las resistencias para obtener la resistencia total del circuito:
+
+---------------------------
+RTotal​ = R1​ + R2​
+Rtotal​ = 220 + 1000
+Rtotal ​= 1220 OHMs
+---------------------------
+
+Luego, calculamos la corriente:
+
+---------------------------
+I = 3.3 / 1220
+​I = 0.0027 Amperios
+---------------------------
+
+Convertimos este valor a miliamperios:
+
+---------------------------
+​I = 0.0027 × 1000 = 2.7mA
+---------------------------
+
+Verificamos este resultado utilizando un multímetro, obteniendo un valor muy aproximado a nuestro cálculo teórico de 2.7 mA.
+
+Análisis del Voltaje:
+
+Aunque el voltaje de la fuente es constante en todo el circuito (3.3V), los valores de voltaje a través de cada resistencia pueden variar. Utilizando la fórmula V = I * R, calculamos estos valores:
+
+---------------------------
+V1​ = I × R1​ 
+V1​ = 0.0027 × 220 
+V1 ​= 0.60 v
+---------------------------
+V2 ​= I × R2​ 
+V2 ​= 0.0027 × 1000 
+V2​ = 2.7 v
+---------------------------
+
+Esto quiere decir que, en la primera resistencia de 220 vamos a tener un voltaje de 0.60v y en la segunda resistencia de 1000 vamos a tener un voltaje de 2.7v.
+
+Sumando estos valores {0.60 + 2.7}, obtenemos el voltaje total de 3.3V.
+
+Verificamos estos resultados utilizando un multímetro, confirmando que los valores medidos coinciden con nuestros cálculos teóricos.

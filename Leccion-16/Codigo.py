@@ -1,5 +1,3 @@
-# By: Jonathan Ord
-
 from machine import Pin
 
 # Configurar los pines

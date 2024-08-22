@@ -13,6 +13,3 @@ while(True):
     # Asignar 180 grados
     servo.duty_u16(8191)
     time.sleep_ms(1500)
-    
-
-
